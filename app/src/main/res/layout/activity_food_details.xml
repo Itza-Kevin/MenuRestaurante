@@ -54,14 +54,6 @@
         app:layout_constraintStart_toEndOf="@+id/ratingBar"
         app:layout_constraintTop_toTopOf="@+id/ratingBar" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_like"
-        tools:layout_editor_absoluteY="334dp" />
 
     <TextView
         android:id="@+id/price"
@@ -111,9 +103,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
-        android:text="Enchiladas Rojas "
         android:fontFamily="sans-serif-condensed-light"
+        android:text="Enchiladas Rojas "
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"

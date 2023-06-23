@@ -13,9 +13,5 @@ public class activity_food_details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_details);
     }
-    public void platillouno(View V){
-        Intent intento=new Intent(this, activity_food_details.class);
-        startActivity(intento);
 
-    }
 }

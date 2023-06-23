@@ -2,6 +2,7 @@ package com.example.menurestaurante;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -14,5 +15,10 @@ public class MenuUno extends AppCompatActivity {
     }
     public void retorna(View vista){
         finish();
+    }
+    public void platillouno(View V){
+        Intent intento=new Intent(this, activity_food_details.class);
+        startActivity(intento);
+
     }
 }
