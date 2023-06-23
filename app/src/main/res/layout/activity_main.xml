@@ -15,7 +15,7 @@
         app:layout_constraintGuide_begin="20dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/correoUsr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -40,7 +40,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/correoUsr" />
 
     <Button
         android:id="@+id/button"
