@@ -17,8 +17,8 @@ public class MenuUno extends AppCompatActivity {
         finish();
     }
     public void platillouno(View V){
-        Intent intento=new Intent(this, activity_food_details.class);
-        startActivity(intento);
+        Intent platilloUno=new Intent(this, activity_food_details.class);
+        startActivity(platilloUno);
 
     }
 }

@@ -24,12 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intento);
 
-        TextView text= findViewById(R.id.correoUsr);
-        EditText usr=findViewById(R.id.correoUsr);
-
-        System.out.println(text);
-        String usuario=        usr.getText().toString();
-        System.out.println(usuario );
-
+   
     }
 }
