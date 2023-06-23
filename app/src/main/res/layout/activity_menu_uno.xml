@@ -82,13 +82,18 @@
             app:layout_constraintStart_toEndOf="@+id/textView"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="374dp"
-            android:layout_height="50dp"
-            android:text="Button"
-            tools:layout_editor_absoluteX="18dp"
-            tools:layout_editor_absoluteY="128dp" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="338dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="ingresa"
+            android:text="Enchiladas..................................................................50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.679"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/editText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
